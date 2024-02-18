@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace InfraestructureLayer.Areas.Pages.Account
+namespace Presentation.Identity.Account
 {
-    public class LoginModel : PageModel
+    public class LogoutModel : PageModel
     {
         public void OnGet()
         {

@@ -1,8 +1,9 @@
 ﻿@page
-@model InfraestructureLayer.Areas.Pages.Account.LoginModel
+@using Presentation.Areas.Pages.Account;
+@model LoginModel
 
 @{
-    ViewData["Title"] = "Log in";
+    ViewData["Title"] = "Login";
 }
 
 <br></br>
@@ -15,9 +16,9 @@
             <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
 
             <div class="form-floating mb-3">
-                <input asp-for="Input.Registration" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
-                <label asp-for="Input.Registration" class="form-label"></label>
-                <span asp-validation-for="Input.Registration" class="text-danger"></span>
+                <input asp-for="Input.ADM" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.ADM" class="form-label"></label>
+                <span asp-validation-for="Input.ADM" class="text-danger"></span>
             </div>
 
             <div class="form-floating mb-3">
